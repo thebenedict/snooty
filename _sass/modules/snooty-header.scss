@@ -1,0 +1,28 @@
+.snooty-header {
+	margin-bottom: 3em;
+	padding: 2em 0;
+
+	.name { 
+		display: inline-block;
+		margin-left: 0.4em;
+		font-family: $header-font-family;
+		font-size: $h1-font-size;
+		color: $snooty-pink;
+	}
+
+	.bar {
+		background: $snooty-blue;
+		width: 100%;
+		height: 100px;
+		vertical-align: middle;
+	}
+
+	.inner { @include outer-container; }
+
+	.mascot{
+		display: inline-block;
+		width: 6.5em;
+		position: relative;
+		top: -20px;
+	}
+}

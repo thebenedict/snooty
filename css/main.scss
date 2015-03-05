@@ -3,19 +3,28 @@
 ---
 @charset "utf-8";
 
-
-
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+@import url(http://fonts.googleapis.com/css?family=Buenard|Pacifico);
+
+$header-font-family: 'Pacifico', cursive;
+$base-font-family: 'Buenard', serif;
+
+//$base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
+
+$h1-font-size: $base-font-size * 3;
 
 $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
+
+$snooty-pink: #e8b0ab;
+$snooty-blue: rgba(107, 202, 192, 0.4);
+//6BCAC0
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -48,5 +57,8 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "bourbon/bourbon",
+        "neat/neat",
+        "modules/modules"
 ;
