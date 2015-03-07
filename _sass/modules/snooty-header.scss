@@ -1,28 +1,79 @@
 .snooty-header {
-	margin-bottom: 3em;
-	padding: 2em 0;
-
-	.name { 
-		display: inline-block;
-		margin-left: 0.4em;
-		font-family: $header-font-family;
-		font-size: $h1-font-size;
-		color: $snooty-pink;
-	}
-
-	.bar {
-		background: $snooty-blue;
-		width: 100%;
-		height: 100px;
-		vertical-align: middle;
+	text-align: center;
+	@include media-query($on-palm) {
+		text-align: left;
+		margin-bottom: 3em;
+		padding: 2em 0;
 	}
 
 	.inner { @include outer-container; }
 
-	.mascot{
-		display: inline-block;
-		width: 6.5em;
-		position: relative;
-		top: -20px;
+	.bar {
+		background: $snooty-blue;
+		width: 100%;
+		height: 19.5em;
+		@include media-query($on-palm) {
+			height: 100px;
+			vertical-align: middle;
+		}
 	}
+
+	.mascot{
+		width: 6.5em;
+		top: 14em;
+		@include media-query($on-palm) {
+			display: inline-block;
+			position: relative;
+			top: -110px;
+		}
+	}
+
+	.mascot-wrapper {
+		@include media-query($on-palm) {
+			display: inline-block;
+			float: left;
+		}		
+	}
+
+	.name { 
+		display: inline-block;
+		font-family: $header-font-family;
+		font-size: $h1-font-size;
+		color: $snooty-pink;
+		padding: 1.5em 0;
+		@include media-query($on-palm) {
+			margin-left: 2.6em;
+			padding: 0.2em 0;
+		}		
+	}
+
 }
+
+// .snooty-header {
+// 	margin-bottom: 3em;
+// 	padding: 2em 0;
+
+// 	.name { 
+// 		display: inline-block;
+// 		margin-left: 0.4em;
+// 		font-family: $header-font-family;
+// 		font-size: $h1-font-size;
+// 		color: $snooty-pink;
+// 	}
+
+// 	.bar {
+// 		background: $snooty-blue;
+// 		width: 100%;
+// 		height: 100px;
+// 		vertical-align: middle;
+// 	}
+
+// 	.inner { @include outer-container; }
+
+// 	.mascot{
+// 		display: inline-block;
+// 		width: 6.5em;
+// 		position: relative;
+// 		top: -20px;
+// 	}
+// }
