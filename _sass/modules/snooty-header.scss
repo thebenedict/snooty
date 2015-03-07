@@ -6,7 +6,10 @@
 		padding: 2em 0;
 	}
 
-	.inner { @include outer-container; }
+	.inner { 
+		position: relative;
+		@include outer-container; 
+	}
 
 	.bar {
 		background: $snooty-blue;
@@ -14,7 +17,6 @@
 		height: 19.5em;
 		@include media-query($on-palm) {
 			height: 100px;
-			vertical-align: middle;
 		}
 	}
 
@@ -23,15 +25,15 @@
 		top: 14em;
 		@include media-query($on-palm) {
 			display: inline-block;
-			position: relative;
-			top: -110px;
 		}
 	}
 
 	.mascot-wrapper {
 		@include media-query($on-palm) {
 			display: inline-block;
-			float: left;
+			position: absolute;
+			left: 0;
+			top: -20px;
 		}		
 	}
 
