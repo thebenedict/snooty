@@ -1,0 +1,30 @@
+.post-card {
+	@include span-columns(12);
+	@include media($med-up) {
+		@include span-columns(6);
+		border: 1px solid $grey-color-light;
+
+		&:hover {
+			box-shadow: 0 0 15px rgba(0,0,0,0.1);
+		}
+	}
+	margin-bottom: 2em;
+	cursor: pointer;
+
+	.image-wrapper {
+		position: relative;
+	}
+
+	.title {
+		color: white;
+		font-family: $header-font-family;
+		font-size: $h2-font-size;		
+		position: absolute;
+		bottom: 0.2em;
+		right: 0.75em;
+	}
+
+	.date {
+		padding: 1em;
+	}
+}

@@ -4,10 +4,11 @@
 @charset "utf-8";
 
 // Our variables
-@import url(http://fonts.googleapis.com/css?family=Buenard|Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Nixie+One|Open+Sans|Pacifico);
 
-$header-font-family: 'Pacifico', cursive;
-$base-font-family: 'Buenard', serif;
+$logo-font-family: 'Pacifico', cursive;
+$header-font-family: 'Nixie One', serif;
+$base-font-family: 'Open Sans', sans-serif;
 
 //$base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
@@ -15,16 +16,19 @@ $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $h1-font-size: $base-font-size * 3;
+$h2-font-size: $base-font-size * 2.5;
 
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
+$background-grey:  #f2f3ef;
 
 $snooty-pink: #e8b0ab;
-$snooty-blue: rgba(107, 202, 192, 0.4);
+$snooty-blue: rgba(120, 228, 216, 0.4);
 //6BCAC0
+
+$background-color: white;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -33,9 +37,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 // Width of the content area
 $content-width:    800px;
 
-$on-palm:          769px;
-$on-laptop:        800px;
-
+$med-up:          769px;
 
 
 // Using media queries with like this:
@@ -56,9 +58,8 @@ $on-laptop:        800px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
-        "layout",
-        "syntax-highlighting",
         "bourbon/bourbon",
         "neat/neat",
+        "layouts/layouts",
         "modules/modules"
 ;
