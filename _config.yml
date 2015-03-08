@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Better food than is reasonable, by invitation only &bull; Dar es Salaam, TZ
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://snootyfoodies.com" # the base hostname & protocol for your site
-image_path: "images"
+image_path: "/images"
 logo_path: "/snooty_logo.png"
 #twitter_username: snootyfoodies
 #github_username:  snooty

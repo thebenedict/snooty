@@ -5,7 +5,7 @@
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta property="og:image" content='{{ site.logo_path | prepend: site.image_path }}'/>
+  <meta property="og:image" content='{{ site.logo_path | prepend: site.image_path | prepend: site.url }}'/>
   <meta property="og:title" content="Snooty Foodies" />
   <meta property="og:url" content="http://www.snootyfoodies.com" />
   <meta property="og:description" content="Better food than is reasonable, by invitation only &bull; Dar es Salaam, TZ" />
