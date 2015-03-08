@@ -5,7 +5,7 @@ image_folder: "saffron"
 date:   2015-02-24
 categories: meal theme-ingredient
 status: completed
-images: ["paella.jpg","crackers.jpg"]
+images: ["paella.jpg","paella2.jpg","crackers.jpg"]
 thumbnail_image: "paella.jpg"
 ---
 
