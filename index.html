@@ -1,50 +1,22 @@
 ---
-layout: default
+layout: home
 ---
 
 <div class="home">
-  <div class="snooty-header">
-    <div class="bar">
-      <div class="inner">
-        <div class="name">Snooty Foodies</div>
-        <div class="mascot-wrapper">
-          <img class="mascot" src="/images/snooty_pig.png">
-        </div>
-      </div>
-    </div>
-  </div>
-
   <div class="post-list">
-    <div class="post-card">
-      <div class="image-wrapper">
-        <div class="overlay"></div>
-        <div class="title">Saffron</div>
-        <img src="/images/saffron/paella-yellow.jpg">
-      </div>
-      <div class="date">February, 2015</div>
-    </div>
-    <div class="post-card">
-      <div class="image-wrapper">
-        <div class="overlay"></div>
-        <div class="title">Citrus</div>
-        <img src="/images/citrus/preserve.jpg">
-      </div>
-      <div class="date">Coming soon&hellip;</div>
-    </div>
-  </div>
-<!--
-  <ul class="post-list">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+      <div class="post-card">
+        <div class="image-wrapper">
+          <div class="overlay"></div>
+          <div class="title">{{ post.title }}</div>
+          <img src="{{ site.image_path }}/{{ post.image_folder }}/thumb.jpg">
+        </div>
+        {% if post.status == "scheduled" %}
+          <div class="date">Coming soon&hellip;</div>
+        {% else %}
+          <div class="date">{{ post.date | date: "%B %Y" }}</div>
+        {% endif %}
+      </div>
     {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
--->
+  </div>
 </div>

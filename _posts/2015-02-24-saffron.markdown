@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "Saffron"
-date:   2015-02-24 17:25:58
+image_folder: "saffron"
+date:   2015-02-24
 categories: meal theme-ingredient
+status: completed
 ---
 
 We're just wild about:
