@@ -17,6 +17,8 @@
 	margin-bottom: 2em;
 	cursor: pointer;
 
+	a { text-decoration: none; }
+
 	.image-wrapper {
 		position: relative;
 	}
@@ -43,6 +45,7 @@
 	}
 
 	.date {
+		color: $text-color;
 		padding: 1em;
 	}
 }

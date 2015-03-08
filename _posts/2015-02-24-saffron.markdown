@@ -5,18 +5,26 @@ image_folder: "saffron"
 date:   2015-02-24
 categories: meal theme-ingredient
 status: completed
+images: ["paella.jpg","crackers.jpg"]
+thumbnail_image: "paella.jpg"
 ---
 
-We're just wild about:
+###saffron gin & tonic
+bombay sapphire &bull; earl grey tea
 
-Saffron Earl Gray Gin & Tonic
+###red sangria
+lemonade &bull; fresh fruit
 
-Onion Crackers with Rosemary Lemon Butter
+###onion crackers
+rosemary butter &bull; smoked salt
 
-Mixed Green Salad with Saffron-Miso Dressing
+###mixed green salad
+saffron-miso dressing
 
-Seafood Paella
+###seafood paella
+calamari &bull; lobster &bull; shrimp
 
-Saffron Olive Oil Ice Cream
+###saffron olive oil ice cream
+lorenzo no5 &bull; tanga fresh milk
 
-10 yr Tawny Port
+###10 year tawny port

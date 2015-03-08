@@ -6,16 +6,18 @@ layout: home
   <div class="post-list">
     {% for post in site.posts %}
       <div class="post-card">
-        <div class="image-wrapper">
-          <div class="overlay"></div>
-          <div class="title">{{ post.title }}</div>
-          <img src="{{ site.image_path }}/{{ post.image_folder }}/thumb.jpg">
-        </div>
-        {% if post.status == "scheduled" %}
-          <div class="date">Coming soon&hellip;</div>
-        {% else %}
-          <div class="date">{{ post.date | date: "%B %Y" }}</div>
-        {% endif %}
+        {% if post.status != "scheduled" %}<a href="{{ post.url }}">{% endif %}
+          <div class="image-wrapper">
+            <div class="overlay"></div>
+            <div class="title">{{ post.title }}</div>
+            <img src="{{ site.image_path }}/{{ post.image_folder }}/{{ post.thumbnail_image }}">
+          </div>
+          {% if post.status == "scheduled" %}
+            <div class="date">Coming soon&hellip;</div>
+          {% else %}
+            <div class="date">{{ post.date | date: "%B %Y" }}</div>
+          {% endif %}
+        {% if post.status != "scheduled" %}</a>{% endif %}
       </div>
     {% endfor %}
   </div>
