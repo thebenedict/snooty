@@ -15,7 +15,7 @@
 			@include span-columns(6);
 			padding-left: 1.5em;
 			border-left: 1px solid $grey-color-light;
-			text-align: right;
+			//text-align: right;
 		}
 		text-align: center;
 
@@ -42,9 +42,11 @@
 		@include span-columns(12 of 12);
 		@include media ($med-up) {
 			@include span-columns(3 of 6);
+			max-height: 149px;
+			overflow: hidden;
 		}
 		margin-bottom: 1.25em;
 
-		&:nth-child(2) { @include omega; }
+		&:nth-child(even) { @include omega; }
 	}
 }

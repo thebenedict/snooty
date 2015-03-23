@@ -5,15 +5,41 @@ image_folder: "citrus"
 date:   2015-03-08
 categories: meal theme-ingredient
 status: completed
-images: ["preserve.jpg"]
+images: ["preserve.jpg","candy.jpg","cocktail.jpg","table.jpg","setting.jpg",
+	"brightcitrus.jpg","flatbread.jpg","georgeprep.jpg","pork.jpg",
+	"greenbeans.jpg","beets.jpg","pavlova.jpg","guests.jpg","curious.jpg"]
 thumbnail_image: "preserve.jpg"
 ---
 
-###candied orange rind
-&nbsp;
+###candied orange peel
+cane sugar &bull; simple syrup
 
 ###citrus cocktails
 pisco sour &bull; orange old fashioned
 
+###preserved lemon focaccia
+rosemary &bull; garlic lemon oil &bull; fleur de sel
 
+###citrus-beet salad
+grapefruit &bull; orange &bull; walnut halves
 
+###lemon green beans
+with toasted pine nuts
+
+###handmade tortellini
+ricotta &bull; lemon zest &bull; parmigiano reggiano
+
+###ceviche 3 ways
+&nbsp;
+
+###israeli couscous
+preserved lemon &bull; chopped walnuts &bull; fresh herbs
+
+###jerk pork shoulder
+cinnamon &bull; clove &bull; scotch bonnet
+
+###lemon pavlova
+lemon curd &bull; fresh berries &bull; meringue
+
+###patrón reposado
+key lime thirds
