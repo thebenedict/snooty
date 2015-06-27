@@ -19,6 +19,9 @@ fresh juice &bull; rum
 ###herbed flatbread
 olives &bull; hummus &bull; baba ghanoush
 
+###mardi gras salad
+mixed greens
+
 ###bbq shrimp
 beer &bull; butter &bull; worcestershire
 
