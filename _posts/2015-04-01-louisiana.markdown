@@ -2,7 +2,7 @@
 layout: post
 title:  "Louisiana"
 image_folder: "louisiana"
-date:   2015-04-01
+date:  2015-04-01
 categories: meal theme-ingredient
 status: completed
 images: ["storefront.jpg","raw_sausage.jpg","george_drinks.jpg","flatbread.jpg",
