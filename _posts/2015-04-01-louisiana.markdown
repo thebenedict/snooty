@@ -28,6 +28,6 @@ beer &bull; butter &bull; worcestershire
 ###chicken and shrimp gumbo
 andouille &bull; baked rice
 
-###bread pudding
-white chocolate &bull; bourbon sauce
+###white chocolate bread pudding
+dates &bull; candied pistachios &bull; whiskey sauce
 

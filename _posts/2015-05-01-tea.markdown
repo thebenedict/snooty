@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Tea"
+image_folder: "tea"
+date:  2015-05-01
+categories: meal theme-ingredient
+status: scheduled
+images: ["dry.jpg","setting.jpg"]
+thumbnail_image: "dry.jpg"
+---
