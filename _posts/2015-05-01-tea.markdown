@@ -4,7 +4,28 @@ title:  "Tea"
 image_folder: "tea"
 date:  2015-05-01
 categories: meal theme-ingredient
-status: scheduled
-images: ["dry.jpg","setting.jpg"]
+status: completed
+images: ["dry.jpg","setting.jpg","apps.jpg","salad.jpg","in-milk.jpg","starters.jpg","soup.jpg","beef.jpg","icecream.jpg","unicum.jpg","takehome.jpg"]
 thumbnail_image: "dry.jpg"
 ---
+
+###rainbow salad
+tea leaves &bull; 7 toppings
+
+###boiled starters
+soy sauce &bull; black tea
+
+###tea soup
+beef &bull; wood-ear mushroom
+
+###tea-smoked beef
+sirloin &bull; tea-leaves &bull; soy
+
+###ice cream
+green tea &bull; rooibos &bull; meringue
+
+###unicum
+neat
+
+###tea cakes
+mixed fruit

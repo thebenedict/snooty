@@ -23,7 +23,7 @@
 
 	.image-wrapper {
 		@include media($med-up) {
-			max-height: 350px;
+			max-height: 310px;
 			overflow: hidden;
 		}
 		position: relative;
